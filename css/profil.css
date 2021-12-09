@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.nav
+{
+    width: 100%;
+    height: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: #020d87;
+    color: white; 
+}
+
+.chat 
+{
+    position: absolute;
+    display: inline-block;
+    left: 0.5%;
+    width: 19%;
+    height: 400px;
+}
+
+.chat h2
+{
+    position: relative;
+    left: 5%;
+}
+.to
+{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    border: 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.msg
+{
+    position: relative;
+    margin-top: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+.submit
+{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 20px;
+    width: 40%;
+    left: 30%;
+    background-color: lightblue;
+}
+.logOut
+{
+    position: relative;
+    right:4%;
+    top: -27px;
+    float: right;
+    clear: left;
+    background-color: #0012e5;
+    color: white;
+    width: 70px;
+    height: 30px;
+    padding: 7px;
+}
+
+.mails
+{
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    width: 19.5%;
+    height: 90%;
+    border-left: 1px solid lightgray;
+    font-size: 20px;
+    padding-left: 10px;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+.conversation
+{
+    position: absolute;
+    display: inline-block;
+    padding: 0px 10px 10px 10px;
+    left: 20%;
+    width: 60%;
+    height: 90%;
+    border-left: 1px solid lightgray;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+.me 
+{
+    display:inline-block;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    background-color: lightblue;
+    font-size: 20px;
+    border-bottom: 1px solid dimgrey;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.receiver
+{
+    position: relative;
+    background-color: lightgreen;
+    left: 0;
+    font-size: 20px;
+    border-bottom: 1px solid dimgrey;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.passchange
+{
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    width: 19%;
+    top: 420px;
+    height: 400px;
+    font-size: 20px;
+    padding-left: 2%;
+
+}
+.passchangei
+{
+    position: relative;
+    width: 90%;
+    border: 0px;
+    border-bottom: 1px solid lightgray;
+}
+.change
+{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 20px;
+    width: 40%;
+    left: 27%;
+    background-color: lightblue;
+}

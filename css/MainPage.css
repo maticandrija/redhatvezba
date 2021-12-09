@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+#bgImg
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -5;
+}
+
+.tekst
+{
+	position: absolute;
+	bottom: 200px;
+	font-size: 30px;
+	line-height: 1.5em;
+	text-align: center;
+	right: 44%;
+	color: #00f;
+}
